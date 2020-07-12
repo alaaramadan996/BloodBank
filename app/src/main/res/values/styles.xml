@@ -20,7 +20,7 @@
     <style name="btn_userCycle">
         <item name="android:layout_marginTop">@dimen/_10sdp</item>
         <item name="android:background">@drawable/btn_user_cycle_shape</item>
-        <item name="android:height">@dimen/_30sdp</item>
+        <item name="android:height">@dimen/_25sdp</item>
         <item name="android:width">@dimen/_150sdp</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">#9b0d0c</item>
