@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.fragment.user_cycle.LoginFragment">
+    <data>
+
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back"
+                />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/et_userCycle"
+            android:hint="@string/phone"
+
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/et_userCycle"
+            android:hint="@string/password"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forget_password"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/text_color"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stay_register"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_14ssp"
+                android:layout_marginStart="@dimen/_125sdp"
+
+                />
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/btn_userCycle"
+            android:text="@string/sign_in"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</layout>

@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">BloodBank</string>
+    <string name="sign_in">دخول</string>
+    <string name="forget_password">هل نسيت كلمة السر ؟</string>
+    <string name="stay_register">تذكرني</string>
+    <string name="you_dont_have_account">الا تمتلك حسابا ؟ يمكنك التسجيل من</string>
+    <string name="اhere">هنا</string>
+    <string name="phone">الجوال</string>
+    <string name="send">ارسال</string>
+    <string name="valedion_code">كود التحقق</string>
+    <string name="password_new">كلمة المرور الجديده</string>
+    <string name="confirm_password">تاكيد كلمة المرور الجديدة</string>
+    <string name="password">كلمة المرور</string>
+    <string name="change">تغيير</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="user_name">الاسم</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="barthyday">تاريخ الميلاد</string>
+    <string name="blood_type">فصيلة الدم</string>
+    <string name="laste_date_donation">اخر تاريخ للتبرع</string>
+    <string name="capital">المحافظة</string>
+    <string name="city">المدينة</string>
+    <string name="namber_mobil">رقم الموبيل</string>
+    <string name="confirm_password">تاكيد كلمة المرور</string>
+    <string name="create_new_account">انشاء حساب جديد</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
