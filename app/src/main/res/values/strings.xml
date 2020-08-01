@@ -9,7 +9,7 @@
     <string name="send">ارسال</string>
     <string name="valedion_code">كود التحقق</string>
     <string name="password_new">كلمة المرور الجديده</string>
-    <string name="confirm_password">تاكيد كلمة المرور الجديدة</string>
+    <string name="confirm_password_new">تاكيد كلمة المرور الجديدة</string>
     <string name="password">كلمة المرور</string>
     <string name="change">تغيير</string>
     <string name="sign_up">تسجيل</string>
@@ -25,4 +25,11 @@
     <string name="create_new_account">انشاء حساب جديد</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="please_wait">من فضلك انتظر...</string>
+    <string name="no_internet_connection">لا يوجد إتصال بالإنترنت, برجاء المحاولة لاحقا.</string>
+
+    <string name="error">حدث خطأ ما</string>
+    <string name="log_out">هل تريد تسجيل الخروج ؟</string>
+    <string name="pin_code">كود التحقق</string>
 </resources>

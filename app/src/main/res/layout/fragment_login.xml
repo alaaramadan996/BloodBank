@@ -31,46 +31,72 @@
                 android:src="@drawable/ic_back"
                 />
         <EditText
+            android:id="@+id/login_fragment_et_namber_phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/et_userCycle"
             android:hint="@string/phone"
 
             />
+        <TextView
+            android:id="@+id/login_fragment_tv_error_phone"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            />
         <EditText
+            android:id="@+id/login_fragment_et_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/et_userCycle"
             android:hint="@string/password"
 
             />
+        <TextView
+            android:id="@+id/login_fragment_tv_error_password"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:gravity="end"
             >
 
 
             <TextView
-
+                android:id="@+id/login_fragment_tv_forget_password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/forget_password"
                 android:textSize="@dimen/_14ssp"
                 android:textColor="@color/text_color"
+                android:layout_marginEnd="@dimen/_80sdp"
                 />
 
             <CheckBox
+                android:id="@+id/login_fragment_check_box_remember"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginEnd="@dimen/_25sdp"
+                android:gravity="center"
                 android:text="@string/stay_register"
                 android:textColor="@color/text_color"
-                android:textSize="@dimen/_14ssp"
-                android:layout_marginStart="@dimen/_125sdp"
+                android:textSize="@dimen/_12ssp"
 
                 />
         </LinearLayout>
         <Button
+            android:id="@+id/login_fragment_btn_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/btn_userCycle"
